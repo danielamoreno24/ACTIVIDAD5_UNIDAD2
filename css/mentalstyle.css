@@ -1,0 +1,19 @@
+.img3{
+    background: #000000;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+p{
+    text-align: justify;
+    font-size: 23px;
+    font-family: segoe print;
+}
+h1{
+    text-align: center;
+}
+
+a{
+    font-size: 18px;
+    color: gray;
+}

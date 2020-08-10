@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicologia</title>
+    <link rel="icon" href="Imagenes/img1.jpg">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/slider.css" type="text/css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--Get your own code at fontawesome.com-->
+</head>
+
+<body>
+    <header class="img1">
+        <img src="Imagenes/img6.png" width="250px" height="260px" alt="Psicologia.png">
+    </header>
+    <header class="main_header">
+        <nav class="menu">
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="Enfermedades.html">Enfermedades</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section class="slider">
+        <article>
+            <ul class="slider-educacion">
+                <li>
+                    <input type="radio" id="sbutton1" name="sradio" checked>
+                    <label for="sbutton1"> </label>
+                    <img src="Imagenes/img1.jpg" alt="img1">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton2" name="sradio">
+                    <label for="sbutton2"> </label>
+                    <img src="Imagenes/IMG3.jpg" alt="img2">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton3" name="sradio">
+                    <label for="sbutton3"> </label>
+                    <img src="Imagenes/img4.jpg" alt="img3">
+                </li>
+
+                <li>
+                    <input type="radio" id="sbutton4" name="sradio">
+                    <label for="sbutton4"> </label>
+                    <img src="Imagenes/img5.jpg" alt="img4">
+                </li>
+
+            </ul>
+        </article>
+
+    </section>
+    <article>
+        <p>
+            Se denomina educación a la facilitación del aprendizaje o de la obtención de conocimientos, habilidades,
+            valores y hábitos en un grupo humano determinado, por parte de otras personas más versadas en el asunto
+            enseñado y empleando diversas técnicas de la pedagogía: la narración, el debate, la memorización o la
+            investigación.
+
+            La educación es un proceso complejo en la vida del ser humano, que ocurre fundamentalmente en el seno de la
+            familia y luego en las distintas etapas de la vida escolar o académica que el individuo transite (desde el
+            kindergarten hasta la universidad). <style></style>
+
+            Fuente: https://concepto.de/educacion-4/#ixzz6Td1G0n5h
+        </p>
+
+        <h2> Para que sirve</h2>
+
+        <p> Para que sirve la educacion desde unpunto de vista de grandes personajes de la historia</p>
+
+        <br>“El sello de una mente bien educada es que es capaz de contemplar un pensamiento sin tener que aceptarlo”.
+        Aristóteles. (384-322 a.C).</br>
+        <br>“El objetivo de la educación es enseñarnos a amar la belleza”. Platón. (424 – 348 a.C). </br>
+
+        <br>“La raíz y florecimiento de la honestidad y la virtud se encuentran en la buena educación”. Plutarco.
+        (46-120).</br>
+
+        <br>“La educación es para el alma lo que la escultura es para un bloque de mármol”. Joseph Addison.
+        (1672-1719).</br>
+
+        <br>“El secreto de la educación reside en respetar al estudiante”. Ralph Waldo Emerson. (1803-1882).</br>
+        </p>
+        <video src="Videos/video1.mp4" controls></video>
+
+    </article>
+
+
+    <form action="">
+        <label>Nombre:</label>
+        <input type="text" id="Nombre" placeholder="Daniela" required>
+        <label>Apellido:</label>
+        <input type="text" id="Apellido" placeholder="Moreno" required>
+        <label>Edad:</label>
+        <input type="number" id="Edad" min="0" max="100" required>
+        <label>Genero:</label>
+        <select id="Genero" required>
+            <option value="N/A"></option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <label>Correo:</label>
+        <input type="text" id="Correo" placeholder="moreno@gmail.com" required>
+        <label>Pais:</label>
+        <input type="text" id="Pais" placeholder="Colombia" required>
+        <Label>Ciudad;</Label>
+        <input type="text" id="Ciudad" placeholder="Bogota">
+        <input type="submit" onclick="enviarDatos()" value="Enviar">
+    </form>
+    <footer>
+        <div class="footerInformacion">
+            <div class="footerCopyright">
+                <h2>Lizeth Daniela Hernandez Moreno</h2>
+            </div>
+            <div class="footerRedes">
+                <ul class="list_redes">
+                    <li><a href="https://www.facebook.com/daniela.hernandezm01" id="redes-footer-facebook"><i
+                                class="fab fa-facebook-square"> </i></a> </li>
+
+                    <li><a href="https://www.linkedin.com/in/daniela-hernandez-moreno-175a621a9/"
+                            id="redes-footer-linkedin"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/danii.moreno23/" id="redes-footer-instagram"><i
+                                class="fab fa-instagram"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

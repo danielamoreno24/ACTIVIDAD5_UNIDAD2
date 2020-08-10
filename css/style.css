@@ -1,0 +1,69 @@
+.img1{
+    background:black;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.main_header{
+    width: 100%;
+    height: 110px;
+    z-index: 101;
+    background: black;
+    font-size: 23px;
+    font-family: Segoe print;
+    text-align: center;
+    margin-top: -8px;
+}
+.menu ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu li{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.menu li a:hover{
+    color: rosybrown;
+    text-decoration: overline;
+
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+
+.footerInformacion{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    border-top: 1px solid #e6e7e8;
+    background-color: #58595b;
+    padding: 5px 0;
+}
+.footerRedes .list_redes {
+    padding-left: 10px;
+}
+
+.footerInformacion .footerCopyright {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
